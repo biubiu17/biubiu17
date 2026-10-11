@@ -4,7 +4,9 @@
 主题的布局、字体和交互由原版插件提供；日常更新主要编辑 Markdown、YAML 和 BibTeX 内容文件。
 
 当前基础资料为 HanLab、湖南大学计算机学院、韩静教授、Healthcare / Audio & Non-audio、`jhan@hnu.edu.cn`。
-尚未提供的论文、学生名单、项目成果、照片和招生条件应在确认后添加。
+2026-10-11 已根据公开一手资料补充负责人介绍和照片、学术主页、20 篇近年及代表性论文、3 个合作项目和 3 条动态。
+来源和归属说明见 [公开资料来源](HANLAB-CONTENT-SOURCES.md)；论文包括韩老师在此前机构完成的工作。
+学生名单、更多成员照片和具体招生条件应在确认后添加。
 项目概况见 [HanLab 项目说明](HANLAB-PROJECT.md)；仓库原有的 `README.md` 保持原内容。
 
 ## 打开预览
@@ -172,6 +174,26 @@ baseurl: /biubiu17
 
 将来迁移到其他仓库时，可以手动修改 `url` 和 `baseurl`。
 工作流还保留一个可选的自动地址功能：当 `url` 设为 `http://localhost:4000` 时，会根据目标仓库生成 GitHub Pages 地址；当前配置不使用这个回退功能。
+
+## 日常更新并发布
+
+当前电脑的网站源码在 `hanlab-al-folio`，工作分支为 `codex/hanlab-al-folio`。
+在此目录审阅 `git diff` 后，可以把当前分支的新提交推送到 GitHub 的 `main`。
+无需切换本地 `main`；本地旧 `main` 不是当前 HanLab 配置。
+
+以下命令在 CMD 和 PowerShell 中都适用（先进入网站目录）：
+
+```bash
+git status
+git diff
+git add _config.yml _data/socials.yml _pages _bibliography _news _projects assets/img/jing-han.jpg docs/HANLAB-GUIDE.md docs/HANLAB-PROJECT.md docs/HANLAB-CONTENT-SOURCES.md docs/HANLAB-PUBLICATION-SOURCES.md
+git commit -m "Add verified Jing Han profile, publications and projects"
+git push origin HEAD:main
+```
+
+这是本次补充内容的明确文件清单；后续更新可按实际修改调整 `git add` 参数。
+如果推送提示远程有新提交，不要加 `--force`；先同步、处理冲突再推送。
+Actions 构建和 Pages 发布成功后，公网内容才会更新。本地预览中的新内容不代表已经上传。
 
 ## 更新后的检查
 

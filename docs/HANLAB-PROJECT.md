@@ -6,6 +6,7 @@ Research: healthcare, audio and non-audio. Contact: jhan@hnu.edu.cn.
 本项目直接使用官方 **al-folio v1**，保留原版布局、字体、导航、深色模式和论文排版。
 
 - [中文使用说明](HANLAB-GUIDE.md)
+- [公开内容来源与待补资料](HANLAB-CONTENT-SOURCES.md)
 - [官方安装与部署说明](INSTALL.md)
 - [使用的 bootstrap 技能](../.agents/skills/al-folio-bootstrap/SKILL.md)
 

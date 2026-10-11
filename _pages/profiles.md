@@ -10,5 +10,6 @@ profiles:
   # Add each new member as a profile with a separate Markdown content file.
   - align: right
     content: people_jing_han.md
+    image: jing-han.jpg
     image_circular: false
 ---

@@ -2,20 +2,33 @@
 layout: page
 title: Research
 permalink: /research/
-description: Healthcare, audio & non-audio
+description: Healthcare, audio & non-audio learning, and multimodal affective computing
 nav: true
 nav_order: 1
 ---
 
-## Healthcare
+## AI for health and wellbeing
 
-Our research interests include questions in healthcare.
+Our interests span mobile and intelligent healthcare, from respiratory and cardiac sounds to physiological signals.
+Related work explores audio monitoring, health-related representations and reproducible evaluation across datasets.
+See the [OPERA]({{ '/projects/opera/' | relative_url }}) and [Tyee]({{ '/projects/tyee/' | relative_url }}) collaborations.
 
-## Audio & non-audio
+## Audio & non-audio learning
 
-We study audio and non-audio data.
+We are interested in learning useful representations from speech, environmental sounds and non-audio sensing modalities.
+This includes foundation models, transfer across tasks and efficient training pipelines.
+[AudioFab]({{ '/projects/audiofab/' | relative_url }}) explores how an agent can select and coordinate audio tools from natural-language instructions.
 
-## Projects
+## Multimodal affective computing
+
+We investigate emotion and sentiment understanding using complementary information from audio, vision and language.
+Topics include fine-grained emotion recognition, open-vocabulary descriptions and the capabilities of large multimodal models.
+Relevant papers are listed on the [Publications]({{ '/publications/' | relative_url }}) page.
+
+## Collaborative projects & open resources
+
+These projects involve Jing Han and collaborators across institutions, including work undertaken before HanLab at Hunan University.
+Each page links to the original paper and project maintainers.
 
 {% if site.projects.size > 0 %}
 {% assign sorted_projects = site.projects | sort: 'importance' %}

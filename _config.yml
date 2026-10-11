@@ -9,11 +9,11 @@ last_name:
 contact_note: >
   Contact Professor Jing Han at jhan@hnu.edu.cn.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  HanLab at Hunan University. Healthcare, audio and non-audio research, led by Professor Jing Han.
+  HanLab at Hunan University, led by Professor Jing Han. AI for health, audio and non-audio learning, and multimodal affective computing.
 footer_text: >
   HanLab · Hunan University.
   Built with <a href="https://jekyllrb.com/">Jekyll</a> and <a href="https://github.com/alshedivat/al-folio">al-folio</a>.
-keywords: HanLab, Hunan University, Jing Han, healthcare, audio, non-audio
+keywords: HanLab, Hunan University, Jing Han, mobile health, healthcare, audio, multimodal learning, affective computing
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: H # replace with an image name in /assets/img/ when a lab logo is available
 apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
