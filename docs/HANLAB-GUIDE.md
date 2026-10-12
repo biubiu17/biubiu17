@@ -5,8 +5,9 @@
 
 当前基础资料为 HanLab、湖南大学计算机学院、韩静教授、Healthcare / Audio & Non-audio、`jhan@hnu.edu.cn`。
 2026-10-11 已根据公开一手资料补充负责人介绍和照片、学术主页、20 篇近年及代表性论文、3 个合作项目和 3 条动态。
+2026-10-12 已按维护者提供的名单加入 3 位 2026 级博士生，并为首页和部分论文加入有来源的图片。
 来源和归属说明见 [公开资料来源](HANLAB-CONTENT-SOURCES.md)；论文包括韩老师在此前机构完成的工作。
-学生名单、更多成员照片和具体招生条件应在确认后添加。
+更多成员照片和具体招生条件应在确认后添加。
 项目概况见 [HanLab 项目说明](HANLAB-PROJECT.md)；仓库原有的 `README.md` 保持原内容。
 
 ## 打开预览
@@ -30,22 +31,24 @@ bundle exec jekyll serve --host 127.0.0.1 --baseurl /al-folio
 
 ## 内容在哪里修改
 
-| 想修改的内容                   | 对应文件或目录                  |
-| ------------------------------ | ------------------------------- |
-| 网站名称、简介、网址、基础开关 | `_config.yml`                   |
-| 首页介绍                       | `_pages/about.md`               |
-| 研究方向                       | `_pages/research.md`            |
-| 论文页面与筛选区域             | `_pages/publications.md`        |
-| 论文数据                       | `_bibliography/papers.bib`      |
-| 团队成员排列、照片引用         | `_pages/profiles.md`            |
-| 韩静教授的成员介绍             | `_pages/people_jing_han.md`     |
-| 新闻页面                       | `_pages/news.md`                |
-| 每条新闻                       | `_news/` 中的 Markdown 文件     |
-| 项目详情                       | `_projects/` 中的 Markdown 文件 |
-| 联系方式和招生联系说明         | `_pages/contact.md`             |
-| 页脚 / 首页社交链接            | `_data/socials.yml`             |
-| 图片                           | `assets/img/`                   |
-| 可公开下载的论文 PDF           | `assets/pdf/`                   |
+| 想修改的内容                   | 对应文件或目录                       |
+| ------------------------------ | ------------------------------------ |
+| 网站名称、简介、网址、基础开关 | `_config.yml`                        |
+| 首页介绍                       | `_pages/about.md`                    |
+| 研究方向                       | `_pages/research.md`                 |
+| 论文页面与筛选区域             | `_pages/publications.md`             |
+| 论文数据                       | `_bibliography/papers.bib`           |
+| 团队成员排列、照片引用         | `_pages/profiles.md`                 |
+| 韩静教授的成员介绍             | `_pages/people_jing_han.md`          |
+| 博士生名单与入学年份           | `_pages/people_doctoral_students.md` |
+| 新闻页面                       | `_pages/news.md`                     |
+| 每条新闻                       | `_news/` 中的 Markdown 文件          |
+| 项目详情                       | `_projects/` 中的 Markdown 文件      |
+| 联系方式和招生联系说明         | `_pages/contact.md`                  |
+| 页脚 / 首页社交链接            | `_data/socials.yml`                  |
+| 图片                           | `assets/img/`                        |
+| 论文缩略图                     | `assets/img/publication_preview/`    |
+| 可公开下载的论文 PDF           | `assets/pdf/`                        |
 
 Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；正文可以直接写英文段落、标题、列表及链接。
 新增页面通常使用 `nav: true` 和 `nav_order` 控制菜单显示与顺序。站内链接应使用 `relative_url`，例如：
@@ -73,7 +76,9 @@ Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；�
 暂时没有照片时，省略 `image`。成员姓名、身份、介绍写在对应的成员介绍文件中。
 这些成员介绍是由 People 页面读取的内容片段，不需要单独生成网页。
 新增成员后，在 `_config.yml` 已有的 `exclude` 列表中追加对应路径，例如 `- _pages/people_student_name.md`；保留其他已有排除项。
-当前负责人片段 `_pages/people_jing_han.md` 已在该列表中。修改配置后重启预览服务。
+当前负责人和博士生片段已在 `_config.yml` 的排除列表中。修改配置后重启预览服务。
+
+现有 People 页面按 **Principal Investigator** 和 **Doctoral Students** 分组。当前博士生姓名与 2026 入学年份由成员提供；没有公开照片或英文姓名的成员保留中文姓名。需要为某位学生增加照片和完整个人资料时，可按上面的步骤创建个人文件，再将其加入 `profiles` 列表。
 
 ## 用 DOI 添加论文
 

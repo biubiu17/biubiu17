@@ -12,4 +12,6 @@ profiles:
     content: people_jing_han.md
     image: jing-han.jpg
     image_circular: false
+  - align: right
+    content: people_doctoral_students.md
 ---

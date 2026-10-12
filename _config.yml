@@ -95,7 +95,7 @@ al_folio:
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 search_enabled: true
 socials_in_search: true
 posts_in_search: true
@@ -234,6 +234,7 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/people_jing_han.md
+  - _pages/people_doctoral_students.md
   - purgecss.config.js
   - README.md
   - readme_preview/

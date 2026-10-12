@@ -5,6 +5,7 @@ description: Open respiratory acoustic foundation models and benchmarks.
 permalink: /projects/opera/
 importance: 2
 category: Collaborative resources
+img: /assets/img/publication_preview/opera-framework.png
 ---
 
 **OPERA** brings together respiratory recordings and evaluation tasks to study reusable audio representations for health research.

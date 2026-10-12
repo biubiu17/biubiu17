@@ -4,8 +4,12 @@ title: Home
 permalink: /
 subtitle: AI for health, audio &amp; multimodal understanding · Hunan University
 
-# Add a lab photograph or logo with the original profile options when available.
-profile: false
+# The verified university portrait gives the homepage a human focal point.
+# Replace it with an authorised group photograph when one is available.
+profile:
+  align: right
+  image: jing-han.jpg
+  image_circular: false
 selected_papers: true
 social: true
 
@@ -34,6 +38,19 @@ We study how artificial intelligence can learn from audio and other human signal
 
 Explore our [research and collaborative projects]({{ '/research/' | relative_url }}) and
 [publications]({{ '/publications/' | relative_url }}), including earlier work by Jing Han and collaborators.
+
+<div class="clearfix"></div>
+
+## Open research resources
+
+{% assign featured_projects = site.projects | sort: 'importance' %}
+<div class="projects">
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in featured_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+</div>
 
 ## Get in touch
 

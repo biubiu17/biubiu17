@@ -5,6 +5,7 @@ description: A configurable toolkit for learning from physiological signals.
 permalink: /projects/tyee/
 importance: 1
 category: Collaborative resources
+img: /assets/img/publication_preview/tyee-framework.jpg
 ---
 
 **Tyee** supports research with physiological signals such as EEG, ECG and EMG. Its configurable components connect data preparation,

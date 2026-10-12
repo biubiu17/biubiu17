@@ -5,6 +5,7 @@ description: An audio agent framework for natural-language tool use.
 permalink: /projects/audiofab/
 importance: 3
 category: Collaborative resources
+img: /assets/img/publication_preview/audiofab-framework.png
 ---
 
 **AudioFab** is an open-source agent framework that uses natural-language instructions to select and coordinate audio tools.

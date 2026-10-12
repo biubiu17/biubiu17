@@ -1,4 +1,6 @@
-## Jing Han · 韩静
+## Principal Investigator
+
+### Jing Han · 韩静
 
 **Professor · Principal Investigator**
 
@@ -12,7 +14,7 @@ Her research connects mobile and intelligent healthcare with multimodal signal p
 [ORCID](https://orcid.org/0000-0001-5776-6849) · [DBLP](https://dblp.org/pid/90/2562-10.html) ·
 [Personal website](https://sites.google.com/view/jinghan)
 
-### Background
+#### Background
 
 Her research experience includes work with Professor Cecilia Mascolo in the Department of Computer Science and Technology
 at the University of Cambridge. She completed her doctorate with Professor Björn W. Schuller at the University of Augsburg.
@@ -23,13 +25,13 @@ at the University of Cambridge. She completed her doctorate with Professor Björ
 
 Education and earlier research experience are documented in her [Cambridge profile](https://www.cst.cam.ac.uk/people/jh2298).
 
-### Academic service
+#### Academic service
 
 She has served as an Associate Editor of **IEEE Transactions on Affective Computing**, and as Lead Guest Editor for the 2023
 **IEEE Transactions on Emerging Topics in Computational Intelligence** special issue on _Computational Intelligence in Mental Health_.
 Further service and invited talks are listed on her [activities page](https://sites.google.com/view/jinghan/activities).
 
-### Selected recognition
+#### Selected recognition
 
 - **2024 — Heroines of Science:** selected in the Cambridge Postdoc Academy's science storytelling competition.
   [Announcement](https://www.postdocacademy.cam.ac.uk/news/heroines-science-winners)
