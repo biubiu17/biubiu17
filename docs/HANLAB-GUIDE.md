@@ -40,7 +40,8 @@ bundle exec jekyll serve --host 127.0.0.1 --baseurl /al-folio
 | 论文数据                       | `_bibliography/papers.bib`           |
 | 团队成员排列、照片引用         | `_pages/profiles.md`                 |
 | 韩静教授的成员介绍             | `_pages/people_jing_han.md`          |
-| 博士生名单与入学年份           | `_pages/people_doctoral_students.md` |
+| 博士生卡片排列方式             | `_pages/people_doctoral_students.md` |
+| 学生照片、身份和个人页         | `_pages/student_*.md`                |
 | 新闻页面                       | `_pages/news.md`                     |
 | 每条新闻                       | `_news/` 中的 Markdown 文件          |
 | 项目详情                       | `_projects/` 中的 Markdown 文件      |
@@ -61,24 +62,34 @@ Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；�
 
 ## 添加团队成员
 
-1. 在 `_pages/` 创建一个介绍文件，例如 `people_student_name.md`，参照 `people_jing_han.md` 的格式编写。
-2. 将照片放入 `assets/img/`，例如 `student-name.jpg`。
-3. 在 `_pages/profiles.md` 的 `profiles` 列表中添加一项：
+People 页面按 **Principal Investigator** 和 **Doctoral Students** 分组。博士生以可点击的头像卡片展示，姓名、照片和“View profile”均进入站内个人页。
+
+三位现有学生的个人页分别为：
+
+| 学生   | 编辑文件                        | 站内路径               |
+| ------ | ------------------------------- | ---------------------- |
+| 冯浩玮 | `_pages/student_feng_haowei.md` | `/people/feng-haowei/` |
+| 凌鹏   | `_pages/student_ling_peng.md`   | `/people/ling-peng/`   |
+| 胡博涵 | `_pages/student_hu_bohan.md`    | `/people/hu-bohan/`    |
+
+### 更换学生照片
+
+将照片放进 `assets/img/people/`，然后修改对应个人页顶部的两项。例如胡博涵：
 
 ```yaml
-- align: right
-  image: student-name.jpg
-  image_circular: false
-  content: people_student_name.md
-  more_info: ""
+portrait: /assets/img/people/hu-bohan.jpg
+portrait_alt: 胡博涵
 ```
 
-暂时没有照片时，省略 `image`。成员姓名、身份、介绍写在对应的成员介绍文件中。
-这些成员介绍是由 People 页面读取的内容片段，不需要单独生成网页。
-新增成员后，在 `_config.yml` 已有的 `exclude` 列表中追加对应路径，例如 `- _pages/people_student_name.md`；保留其他已有排除项。
-当前负责人和博士生片段已在 `_config.yml` 的排除列表中。修改配置后重启预览服务。
+卡片和个人页共同读取这两项，只需修改一次。建议使用居中、接近正方形的照片；照片区域会裁切为正方形。当前没有收到学生照片，使用明确标示“Photo coming soon”的默认头像。
 
-现有 People 页面按 **Principal Investigator** 和 **Doctoral Students** 分组。当前博士生姓名与 2026 入学年份由成员提供；没有公开照片或英文姓名的成员保留中文姓名。需要为某位学生增加照片和完整个人资料时，可按上面的步骤创建个人文件，再将其加入 `profiles` 列表。
+### 补充个人信息或新增学生
+
+直接编辑个人页第二个 `---` 后面的正文，可以继续添加 `## Research interests`、`## Education`、`## Publications` 和个人联系链接。只填写已确认、愿意公开的信息。
+
+新增学生时，复制一份 `_pages/student_*.md`，修改 `title`、唯一的 `permalink`、`cohort`、`member_order` 和照片。保留 `member_group: doctoral`，People 页面就会自动收录，按 `member_order` 排序。`nav: false` 让个人页不占用顶部导航。
+
+学生个人页需要生成网页，因此不要加入 `_config.yml` 的 `exclude`。已有的 `people_jing_han.md` 和 `people_doctoral_students.md` 是 People 页面读取的内容片段，继续保留在排除列表中。
 
 ## 用 DOI 添加论文
 
