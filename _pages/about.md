@@ -67,16 +67,13 @@ We study how artificial intelligence can learn from audio and other human signal
 **Role & research.** Jing Han is a professor in the School of Computer Science at Hunan University and leads HanLab.
 Her research connects healthcare with audio, physiological signals, multimodal learning and deep learning.
 
-**Background.** She previously worked with Professor Cecilia Mascolo at the University of Cambridge.
+She received her PhD from the University of Augsburg, Germany, in 2020, supervised by Professor Björn W. Schuller.
+She subsequently conducted postdoctoral research on wearable sensing and mobile health at the University of Cambridge,
+working with Professor Cecilia Mascolo.
 
-**Education.** PhD, University of Augsburg (2020); master's degree, Nanyang Technological University (2014);
-bachelor's degree, Harbin Engineering University (2011). See her [Cambridge profile](https://www.cst.cam.ac.uk/people/jh2298).
-
-**Academic service.** Her [activities page](https://sites.google.com/view/jinghan/activities) lists journal editing, guest editorship and invited talks.
-
-**Selected recognition.** [Heroines of Science, 2024](https://www.postdocacademy.cam.ac.uk/news/heroines-science-winners);
-[Cambridge Better Future Award team member, 2021](https://www.cst.cam.ac.uk/ring/awards);
-[AAAC Outstanding PhD Dissertation Award honourable mention, 2021](https://www.schuller.it/bws/?page_id=115).
+She serves as an **Associate Editor of IEEE Transactions on Affective Computing**.
+Her academic recognition includes an Honourable Mention for the AAAC Outstanding PhD Dissertation Award in 2021.
+She was also a member of the Cambridge research team that received the Better Future Award in the same year.
 
 [University profile](https://csee.hnu.edu.cn/people/hanjing) ·
 [Google Scholar](https://scholar.google.com/citations?user=90uh0GcAAAAJ&hl=en) ·
