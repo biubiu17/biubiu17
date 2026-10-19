@@ -12,15 +12,17 @@
 
 ## 页面资料
 
-| 内容                     | 来源                                                                                                                  | 处理方式                                                                                                                  |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| 研究方向                 | 湖南大学教师页、[本人研究兴趣页](https://sites.google.com/view/jinghan/interests)、已核对的论文                       | 英文原创概括；不作临床有效性或研究成果归属的额外承诺                                                                      |
-| 教育背景与过往经历       | 剑桥官方个人页、本人主页                                                                                              | Augsburg 博士 2020、NTU 硕士 2014、Harbin Engineering 学士 2011；不推断未提供的入职或离职时间                             |
-| 学术服务与讲座           | [本人 Activities](https://sites.google.com/view/jinghan/activities)                                                   | 使用 has served as，不将历史任期写成已独立确认的当前任期                                                                  |
-| 2024 Heroines of Science | [Cambridge Postdoc Academy 公告](https://www.postdocacademy.cam.ac.uk/news/heroines-science-winners)                  | 标为科学传播故事征集获选                                                                                                  |
-| 2021 Better Future Award | [剑桥官方获奖名单](https://www.cst.cam.ac.uk/ring/awards)                                                             | 明确为获奖团队成员，不写成个人独得                                                                                        |
-| 2021 AAAC 博士论文荣誉   | [导师本人获奖记录](https://www.schuller.it/bws/?page_id=115)                                                          | 保留 Honourable Mention，不写成最高奖                                                                                     |
-| 教师照片                 | [湖南大学教师页所用原图](https://csee.hnu.edu.cn/Content/UploadFiles/ryjbxx/6a4d28f1-b0c1-4217-a952-ef531a682c75.jpg) | 原样保存为 `assets/img/jing-han.jpg`；未生成、修饰或替换人脸。HTML 的“无照片”alt 文本是旧标签，实际原图已人工查看确认可用 |
+2026-10-20：维护者依据老师原简介确认并要求补充编辑、审稿及会议服务。首页学术服务使用具体的 Associate Editor 职务和期刊名，会议经历保留 ICASSP 2022 与 INTERSPEECH 2021 年份；博士与剑桥导师姓名分别链接老师原主页所列的 Schuller 和 Mascolo 个人主页。
+
+| 内容                     | 来源                                                                                                                                | 处理方式                                                                                                                  |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 研究方向                 | 湖南大学教师页、[本人研究兴趣页](https://sites.google.com/view/jinghan/interests)、已核对的论文                                     | 英文原创概括；不作临床有效性或研究成果归属的额外承诺                                                                      |
+| 教育背景与过往经历       | 剑桥官方个人页、本人主页                                                                                                            | Augsburg 博士 2020、NTU 硕士 2014、Harbin Engineering 学士 2011；不推断未提供的入职或离职时间                             |
+| 学术服务与讲座           | [本人主页](https://sites.google.com/view/jinghan)、[本人 Activities](https://sites.google.com/view/jinghan/activities) 及维护者确认 | 编辑职务按维护者确认表述；历史会议服务保留年份                                                                            |
+| 2024 Heroines of Science | [Cambridge Postdoc Academy 公告](https://www.postdocacademy.cam.ac.uk/news/heroines-science-winners)                                | 标为科学传播故事征集获选                                                                                                  |
+| 2021 Better Future Award | [剑桥官方获奖名单](https://www.cst.cam.ac.uk/ring/awards)                                                                           | 明确为获奖团队成员，不写成个人独得                                                                                        |
+| 2021 AAAC 博士论文荣誉   | [导师本人获奖记录](https://www.schuller.it/bws/?page_id=115)                                                                        | 保留 Honourable Mention，不写成最高奖                                                                                     |
+| 教师照片                 | [湖南大学教师页所用原图](https://csee.hnu.edu.cn/Content/UploadFiles/ryjbxx/6a4d28f1-b0c1-4217-a952-ef531a682c75.jpg)               | 原样保存为 `assets/img/jing-han.jpg`；未生成、修饰或替换人脸。HTML 的“无照片”alt 文本是旧标签，实际原图已人工查看确认可用 |
 
 照片来源为湖南大学教师介绍，原始权利归相应权利人；本项目的 MIT 模板许可证不转授该照片的权利。
 

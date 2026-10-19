@@ -67,13 +67,20 @@ We study how artificial intelligence can learn from audio and other human signal
 **Role & research.** Jing Han is a professor in the School of Computer Science at Hunan University and leads HanLab.
 Her research connects healthcare with audio, physiological signals, multimodal learning and deep learning.
 
-She received her PhD from the University of Augsburg, Germany, in 2020, supervised by Professor Björn W. Schuller.
+**Education & research experience.** She received her PhD from the University of Augsburg, Germany, in 2020,
+supervised by [Professor Björn W. Schuller](https://www.schuller.one/).
 She subsequently conducted postdoctoral research on wearable sensing and mobile health at the University of Cambridge,
-working with Professor Cecilia Mascolo.
+working with [Professor Cecilia Mascolo](https://www.cl.cam.ac.uk/~cm542/).
+She received her master's degree from Nanyang Technological University, Singapore, in 2014, and her bachelor's degree
+in Electronic and Information Engineering from Harbin Engineering University, China, in 2011.
 
-She serves as an **Associate Editor of IEEE Transactions on Affective Computing**.
-Her academic recognition includes an Honourable Mention for the AAAC Outstanding PhD Dissertation Award in 2021.
-She was also a member of the Cambridge research team that received the Better Future Award in the same year.
+**Academic service.** She serves as an Associate Editor of _IEEE Transactions on Affective Computing_ and reviews for
+_IEEE Transactions on Cybernetics_, _IEEE Signal Processing Magazine_ and _IEEE Transactions on Multimedia_.
+She co-organised special sessions at ICASSP 2022 and INTERSPEECH 2021, and has served as a session chair or programme
+committee member at international conferences.
+
+**Selected recognition.** Honourable Mention, AAAC Outstanding PhD Dissertation Award (2021);
+member of the Cambridge research team receiving the Better Future Award (2021).
 
 [University profile](https://csee.hnu.edu.cn/people/hanjing) ·
 [Google Scholar](https://scholar.google.com/citations?user=90uh0GcAAAAJ&hl=en) ·
