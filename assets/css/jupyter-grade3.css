@@ -296,13 +296,6 @@ div.modal-footer > button:hover {
   outline: none;
 }
 
-.modal-content h4 {
-  font-family: sans-serif;
-  font-size: 16pt;
-  color: #303030;
-  padding: 5px;
-}
-
 .modal-body {
   background-color: #ffffff;
   position: relative;
@@ -394,7 +387,6 @@ li,
 h1,
 h2,
 h3,
-h4,
 pre,
 code,
 form,
@@ -478,13 +470,6 @@ pre {
   background-color: #efefef;
   border: 1px solid #e7e7e7;
   border-radius: 2px;
-}
-
-hr {
-  margin-top: 8px;
-  margin-bottom: 10px;
-  border: 0;
-  border-top: 1px solid #126dce;
 }
 
 #complete > select > option:hover {
