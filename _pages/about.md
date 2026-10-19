@@ -24,6 +24,37 @@ latest_posts:
   limit: 3
 ---
 
+<style>
+  .post article > .clearfix > h2,
+  .post article > h2 {
+    margin-top: 3.25rem;
+    margin-bottom: 1.35rem;
+  }
+  .hanlab-pillar-row { margin-top: 1.25rem; margin-bottom: 1.75rem; }
+  .hanlab-pillar {
+    background: var(--pillar-bg);
+    border: 1px solid color-mix(in srgb, var(--pillar-accent) 18%, transparent);
+    border-radius: .75rem;
+    box-shadow: 0 5px 16px rgba(24, 46, 57, .06);
+  }
+  .hanlab-pillar .card-body { padding: 1.5rem; }
+  .hanlab-pillar .card-title { color: var(--pillar-accent); font-size: 1.4rem; }
+  .hanlab-pillar .card-text { color: #253c42; }
+  .hanlab-pillar--health { --pillar-bg: #e8f4ee; --pillar-accent: #1b6b56; }
+  .hanlab-pillar--audio { --pillar-bg: #edf2fb; --pillar-accent: #345d9d; }
+  .hanlab-pillar--non-audio { --pillar-bg: #fff2e8; --pillar-accent: #96552d; }
+  .hanlab-letter-h { color: #1b6b56; }
+  .hanlab-letter-a { color: #345d9d; }
+  .hanlab-letter-n { color: #96552d; }
+  html[data-theme="dark"] .hanlab-pillar .card-text { color: #e8f0f2; }
+  html[data-theme="dark"] .hanlab-pillar--health { --pillar-bg: #17362e; --pillar-accent: #9de0c2; }
+  html[data-theme="dark"] .hanlab-pillar--audio { --pillar-bg: #202e48; --pillar-accent: #a9c4fc; }
+  html[data-theme="dark"] .hanlab-pillar--non-audio { --pillar-bg: #3d2d25; --pillar-accent: #f1bd98; }
+  html[data-theme="dark"] .hanlab-letter-h { color: #9de0c2; }
+  html[data-theme="dark"] .hanlab-letter-a { color: #a9c4fc; }
+  html[data-theme="dark"] .hanlab-letter-n { color: #f1bd98; }
+</style>
+
 **HanLab** is a research group at the **School of Computer Science, Hunan University**, led by
 [**Professor Jing Han (韩静)**]({{ '/' | relative_url }}#jing-han).
 We study how artificial intelligence can learn from audio and other human signals to support health and wellbeing.
@@ -53,12 +84,12 @@ and an [AAAC Outstanding PhD Dissertation Award honourable mention](https://www.
 
 <div class="clearfix"></div>
 
-## The meaning of HanLab
+<h2>The meaning of <span class="hanlab-letter-h">H</span><span class="hanlab-letter-a">a</span><span class="hanlab-letter-n">n</span>Lab</h2>
 
-<div class="row row-cols-1 row-cols-md-3">
-  <div class="col mb-3"><div class="card h-100"><div class="card-body"><h3 class="card-title">H · Healthcare</h3><p class="card-text">AI for mobile health, respiratory and cardiac sounds, and physiological signals.</p></div></div></div>
-  <div class="col mb-3"><div class="card h-100"><div class="card-body"><h3 class="card-title">a · Audio</h3><p class="card-text">Learning from speech, everyday sounds, and other acoustic signals.</p></div></div></div>
-  <div class="col mb-3"><div class="card h-100"><div class="card-body"><h3 class="card-title">n · Non-audio</h3><p class="card-text">Understanding complementary physiological and other sensor data.</p></div></div></div>
+<div class="row row-cols-1 row-cols-md-3 hanlab-pillar-row">
+  <div class="col mb-3"><div class="card h-100 hanlab-pillar hanlab-pillar--health"><div class="card-body"><h3 class="card-title">H · Healthcare</h3><p class="card-text">AI for mobile health, respiratory and cardiac sounds, and physiological signals.</p></div></div></div>
+  <div class="col mb-3"><div class="card h-100 hanlab-pillar hanlab-pillar--audio"><div class="card-body"><h3 class="card-title">a · Audio</h3><p class="card-text">Learning from speech, everyday sounds, and other acoustic signals.</p></div></div></div>
+  <div class="col mb-3"><div class="card h-100 hanlab-pillar hanlab-pillar--non-audio"><div class="card-body"><h3 class="card-title">n · Non-audio</h3><p class="card-text">Understanding complementary physiological and other sensor data.</p></div></div></div>
 </div>
 
 Explore our [research and collaborative projects]({{ '/research/' | relative_url }}) and
