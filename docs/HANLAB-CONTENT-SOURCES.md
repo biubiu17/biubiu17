@@ -28,7 +28,7 @@
 
 20 篇近年及代表性正式论文保存于 `_bibliography/papers.bib`，范围为 2021–2026；不是穷尽目录，也不是全部在 HanLab 完成的成果。
 作者顺序、题名、DOI、期刊会议和年份依据出版记录核对，细目见 [论文来源说明](HANLAB-PUBLICATION-SOURCES.md)。
-首页展示其中 4 篇 `selected = {true}` 的论文；完整 BibTeX 记录显示在 Publications 页面。
+首页展示其中 3 篇 `selected = {true}` 的医疗、音频与生理信号相关论文；完整 BibTeX 记录显示在 Publications 页面，包括韩静教授此前的情感计算论文。
 
 三个项目均标为跨机构合作资源，并链接原作者维护的仓库：
 

@@ -6,6 +6,7 @@
 当前基础资料为 HanLab、湖南大学计算机学院、韩静教授、Healthcare / Audio & Non-audio、`jhan@hnu.edu.cn`。
 2026-10-11 已根据公开一手资料补充负责人介绍和照片、学术主页、20 篇近年及代表性论文、3 个合作项目和 3 条动态。
 2026-10-12 已按维护者提供的名单加入 3 位 2026 级博士生，并为首页和部分论文加入有来源的图片。
+2026-10-19 首页解释 HanLab 的 Healthcare、Audio、Non-audio 含义并集中展示韩静教授简介；People 精简为照片占位、负责人简介和学生卡片。
 来源和归属说明见 [公开资料来源](HANLAB-CONTENT-SOURCES.md)；论文包括韩老师在此前机构完成的工作。
 更多成员照片和具体招生条件应在确认后添加。
 项目概况见 [HanLab 项目说明](HANLAB-PROJECT.md)；仓库原有的 `README.md` 保持原内容。
@@ -34,12 +35,11 @@ bundle exec jekyll serve --host 127.0.0.1 --baseurl /al-folio
 | 想修改的内容                   | 对应文件或目录                       |
 | ------------------------------ | ------------------------------------ |
 | 网站名称、简介、网址、基础开关 | `_config.yml`                        |
-| 首页介绍                       | `_pages/about.md`                    |
+| 首页介绍及韩静教授简介         | `_pages/about.md`                    |
 | 研究方向                       | `_pages/research.md`                 |
 | 论文页面与筛选区域             | `_pages/publications.md`             |
 | 论文数据                       | `_bibliography/papers.bib`           |
-| 团队成员排列、照片引用         | `_pages/profiles.md`                 |
-| 韩静教授的成员介绍             | `_pages/people_jing_han.md`          |
+| 团队负责人、图片展示区         | `_pages/profiles.md`                 |
 | 博士生卡片排列方式             | `_pages/people_doctoral_students.md` |
 | 学生照片、身份和个人页         | `_pages/student_*.md`                |
 | 新闻页面                       | `_pages/news.md`                     |
@@ -63,6 +63,8 @@ Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；�
 ## 添加团队成员
 
 People 页面按 **Principal Investigator** 和 **Doctoral Students** 分组。博士生以可点击的头像卡片展示，姓名、照片和“View profile”均进入站内个人页。
+韩静教授的详细介绍放在首页；People 仅展示姓名、职务和通往首页介绍的链接。
+顶部图片展示区使用 `assets/img/people/gallery-*.svg` 占位图。以后把照片放入 `assets/img/people/`，再修改 `_pages/profiles.md` 中对应的图片路径和说明文字即可。手机上可左右滑动查看三张图片。
 
 三位现有学生的个人页分别为：
 
@@ -89,7 +91,7 @@ portrait_alt: 胡博涵
 
 新增学生时，复制一份 `_pages/student_*.md`，修改 `title`、唯一的 `permalink`、`cohort`、`member_order` 和照片。保留 `member_group: doctoral`，People 页面就会自动收录，按 `member_order` 排序。`nav: false` 让个人页不占用顶部导航。
 
-学生个人页需要生成网页，因此不要加入 `_config.yml` 的 `exclude`。已有的 `people_jing_han.md` 和 `people_doctoral_students.md` 是 People 页面读取的内容片段，继续保留在排除列表中。
+学生个人页需要生成网页，因此不要加入 `_config.yml` 的 `exclude`。`people_doctoral_students.md` 是 People 页面读取的内容片段，继续保留在排除列表中。
 
 ## 用 DOI 添加论文
 

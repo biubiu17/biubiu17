@@ -2,7 +2,7 @@
 layout: page
 title: Research
 permalink: /research/
-description: Healthcare, audio & non-audio learning, and multimodal affective computing
+description: Healthcare, audio and non-audio learning
 nav: true
 nav_order: 1
 ---
@@ -19,10 +19,10 @@ We are interested in learning useful representations from speech, environmental 
 This includes foundation models, transfer across tasks and efficient training pipelines.
 [AudioFab]({{ '/projects/audiofab/' | relative_url }}) explores how an agent can select and coordinate audio tools from natural-language instructions.
 
-## Multimodal affective computing
+## Non-audio sensing and multimodal learning
 
-We investigate emotion and sentiment understanding using complementary information from audio, vision and language.
-Topics include fine-grained emotion recognition, open-vocabulary descriptions and the capabilities of large multimodal models.
+We study physiological signals and other non-audio measurements alongside sound, connecting complementary sources of information
+for health-related tasks. This includes representation learning and reliable evaluation across sensing modalities.
 Relevant papers are listed on the [Publications]({{ '/publications/' | relative_url }}) page.
 
 ## Collaborative projects & open resources

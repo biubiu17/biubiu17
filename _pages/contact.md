@@ -9,7 +9,7 @@ nav_order: 5
 
 ## Research enquiries
 
-**Professor Jing Han · 韩静教授**
+**Professor Jing Han**
 
 [jhan@hnu.edu.cn](mailto:jhan@hnu.edu.cn)
 
@@ -22,8 +22,6 @@ For research discussions, collaboration enquiries or questions about potential s
 Department of Computer Science · School of Computer Science
 
 Hunan University · Changsha, Hunan, China
-
-湖南大学计算机学院
 
 [University profile](https://csee.hnu.edu.cn/people/hanjing)
 
