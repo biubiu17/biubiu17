@@ -64,7 +64,7 @@ Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；�
 
 People 页面按 **Principal Investigator** 和 **Doctoral Students** 分组。博士生以可点击的头像卡片展示，姓名、照片和“View profile”均进入站内个人页。
 韩静教授的详细介绍放在首页；People 仅展示姓名、职务和通往首页介绍的链接。
-顶部图片展示区使用 `assets/img/people/gallery-*.svg` 占位图。以后把照片放入 `assets/img/people/`，再修改 `_pages/profiles.md` 中对应的图片路径和说明文字即可。手机上可左右滑动查看三张图片。
+顶部轮播一次显示一张图片；点击左右箭头或下方圆点切换。当前使用 `assets/img/people/gallery-*.svg` 占位图。以后把照片放入 `assets/img/people/`，再修改 `_pages/profiles.md` 中对应的图片路径和说明文字即可。
 
 三位现有学生的个人页分别为：
 
