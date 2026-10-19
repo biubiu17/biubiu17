@@ -7,6 +7,8 @@ nav: true
 nav_order: 4
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/hanlab-content.css' | relative_url }}">
+
 Research publications, resources and academic activities, including selected updates from Jing Han's earlier work.
 
 {% if site.news.size > 0 %}

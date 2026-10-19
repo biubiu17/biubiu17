@@ -5,7 +5,12 @@ permalink: /research/
 description: Healthcare, audio and non-audio learning
 nav: true
 nav_order: 1
+_styles: |
+  .post article > h2 { margin-top: 3.5rem; margin-bottom: 1.25rem; }
+  .post article > h2:first-of-type { margin-top: 1rem; }
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/hanlab-content.css' | relative_url }}">
 
 ## AI for health and wellbeing
 

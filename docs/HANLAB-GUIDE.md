@@ -32,6 +32,8 @@ bundle exec jekyll serve --host 127.0.0.1 --baseurl /al-folio
 
 ## 内容在哪里修改
 
+各页面的标题层次、新闻列表和论文按钮样式集中在 `assets/css/hanlab-content.css`。页面正文通过一条 `link` 引用该文件。首页的 News 和 Selected Publications 在 `_pages/about.md` 中显式引用主题组件，以统一标题大小写；新增新闻或论文仍修改原来的数据文件。
+
 | 想修改的内容                   | 对应文件或目录                       |
 | ------------------------------ | ------------------------------------ |
 | 网站名称、简介、网址、基础开关 | `_config.yml`                        |

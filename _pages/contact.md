@@ -7,6 +7,8 @@ nav: true
 nav_order: 5
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/hanlab-content.css' | relative_url }}">
+
 ## Research enquiries
 
 **Professor Jing Han**

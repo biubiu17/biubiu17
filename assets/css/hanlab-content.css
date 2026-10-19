@@ -1,0 +1,139 @@
+/* Site content polish, shared by the HanLab pages. */
+.post {
+  --hanlab-muted: #56636e;
+  --hanlab-divider: #dce3e7;
+}
+
+html[data-theme="dark"] .post {
+  --hanlab-muted: #bcc8d2;
+  --hanlab-divider: #424c54;
+}
+
+.post .post-title {
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+
+.post article > h2,
+.post article > .clearfix > h2 {
+  font-weight: 500;
+  font-size: clamp(1.65rem, 2.2vw, 1.9rem);
+  line-height: 1.3;
+  letter-spacing: -0.015em;
+  scroll-margin-top: 5rem;
+}
+
+.post article h3,
+.post .card-title {
+  font-weight: 500;
+  line-height: 1.35;
+}
+
+.news .table {
+  color: var(--global-text-color);
+}
+
+.news .table th,
+.news .table td {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: 0;
+  line-height: 1.65;
+  vertical-align: top;
+  background: transparent;
+}
+
+.news .table th {
+  width: 9rem !important;
+  padding-right: 1.5rem;
+  padding-left: 0;
+  color: var(--hanlab-muted);
+  font-size: 0.88rem;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.news .table td {
+  color: var(--global-text-color);
+}
+
+.news .table tr + tr {
+  border-top: 1px solid var(--hanlab-divider);
+}
+
+.publications ol.bibliography > li {
+  margin-bottom: 2rem;
+  padding-bottom: 1.8rem;
+  border-bottom: 1px solid var(--hanlab-divider);
+}
+
+.publications ol.bibliography > li:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.publications ol.bibliography li .title {
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.publications ol.bibliography li .author,
+.publications ol.bibliography li .periodical {
+  margin-top: 0.25rem;
+  line-height: 1.55;
+}
+
+.publications ol.bibliography li .links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin-top: 0.75rem;
+}
+
+.publications ol.bibliography li .links a.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 3.6rem;
+  min-height: 2rem;
+  margin: 0;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid var(--hanlab-muted);
+  border-radius: 0.3rem;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  font-size: 0.76rem;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+.publications ol.bibliography li .links a.btn:hover {
+  border-color: var(--global-theme-color);
+  background: color-mix(in srgb, var(--global-theme-color) 8%, var(--global-bg-color));
+  color: var(--global-text-color);
+}
+
+.publications ol.bibliography li .links a.btn:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+
+@media (max-width: 575px) {
+  .news .table,
+  .news .table tbody,
+  .news .table tr,
+  .news .table th,
+  .news .table td {
+    display: block;
+    width: 100% !important;
+  }
+
+  .news .table th {
+    padding: 1rem 0 0.25rem;
+  }
+
+  .news .table td {
+    padding: 0 0 1rem;
+  }
+}

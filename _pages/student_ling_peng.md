@@ -11,6 +11,8 @@ portrait: /assets/img/people/default-avatar.svg
 portrait_alt: Default avatar — photo coming soon
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/hanlab-content.css' | relative_url }}">
+
 [← Back to People]({{ '/people/' | relative_url }})
 
 <div class="row mt-4 mb-4">

@@ -10,11 +10,12 @@ profile:
   align: right
   image: jing-han.jpg
   image_circular: false
-selected_papers: true
+# Render the two sections below with explicit, consistently capitalised headings.
+selected_papers: false
 social: true
 
 announcements:
-  enabled: true
+  enabled: false
   scrollable: true
   limit: 3
 
@@ -23,6 +24,8 @@ latest_posts:
   scrollable: true
   limit: 3
 ---
+
+<link rel="stylesheet" href="{{ '/assets/css/hanlab-content.css' | relative_url }}">
 
 <style>
   .post article > .clearfix > h2,
@@ -61,19 +64,19 @@ We study how artificial intelligence can learn from audio and other human signal
 
 <h2 id="jing-han">Professor Jing Han</h2>
 
-Professor Jing Han is a professor in the School of Computer Science at Hunan University and leads HanLab.
-Her work connects mobile and intelligent healthcare with audio, physiological signals, multimodal learning and deep learning.
+**Role & research.** Jing Han is a professor in the School of Computer Science at Hunan University and leads HanLab.
+Her research connects healthcare with audio, physiological signals, multimodal learning and deep learning.
 
-Previously, she worked with Professor Cecilia Mascolo at the University of Cambridge.
-She earned her doctorate at the University of Augsburg in 2020, her master's degree at Nanyang Technological University in 2014,
-and her bachelor's degree at Harbin Engineering University in 2011.
-Her earlier research and education are documented in her [Cambridge profile](https://www.cst.cam.ac.uk/people/jh2298).
+**Background.** She previously worked with Professor Cecilia Mascolo at the University of Cambridge.
 
-Her academic service includes journal editing and guest editorship; her [activities page](https://sites.google.com/view/jinghan/activities)
-lists these roles and invited talks.
-Her recognition includes the [2024 Heroines of Science selection](https://www.postdocacademy.cam.ac.uk/news/heroines-science-winners),
-membership in a Cambridge team receiving the [2021 Better Future Award](https://www.cst.cam.ac.uk/ring/awards),
-and an [AAAC Outstanding PhD Dissertation Award honourable mention](https://www.schuller.it/bws/?page_id=115).
+**Education.** PhD, University of Augsburg (2020); master's degree, Nanyang Technological University (2014);
+bachelor's degree, Harbin Engineering University (2011). See her [Cambridge profile](https://www.cst.cam.ac.uk/people/jh2298).
+
+**Academic service.** Her [activities page](https://sites.google.com/view/jinghan/activities) lists journal editing, guest editorship and invited talks.
+
+**Selected recognition.** [Heroines of Science, 2024](https://www.postdocacademy.cam.ac.uk/news/heroines-science-winners);
+[Cambridge Better Future Award team member, 2021](https://www.cst.cam.ac.uk/ring/awards);
+[AAAC Outstanding PhD Dissertation Award honourable mention, 2021](https://www.schuller.it/bws/?page_id=115).
 
 [University profile](https://csee.hnu.edu.cn/people/hanjing) ·
 [Google Scholar](https://scholar.google.com/citations?user=90uh0GcAAAAJ&hl=en) ·
@@ -109,3 +112,11 @@ Explore our [research and collaborative projects]({{ '/research/' | relative_url
 ## Get in touch
 
 For research enquiries, contact [jhan@hnu.edu.cn](mailto:jhan@hnu.edu.cn).
+
+<h2><a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a></h2>
+
+{% include news.liquid limit=true %}
+
+<h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a></h2>
+
+{% include selected_papers.liquid %}

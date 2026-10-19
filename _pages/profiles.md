@@ -92,6 +92,8 @@ _styles: |
   }
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/hanlab-content.css' | relative_url }}">
+
 <div class="hanlab-carousel" role="group" aria-label="HanLab photo gallery">
   <input class="hanlab-carousel-radio" type="radio" id="hanlab-photo-1" name="hanlab-photo" aria-label="Show image 1 of 3" checked>
   <input class="hanlab-carousel-radio" type="radio" id="hanlab-photo-2" name="hanlab-photo" aria-label="Show image 2 of 3">

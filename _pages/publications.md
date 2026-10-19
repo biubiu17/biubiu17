@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/hanlab-content.css' | relative_url }}">
+
 This collection brings together recent and representative publications by **Jing Han and collaborators**, including work at previous institutions.
 For the broader publication record, visit [Google Scholar](https://scholar.google.com/citations?user=90uh0GcAAAAJ&hl=en)
 or [DBLP](https://dblp.org/pid/90/2562-10.html).
