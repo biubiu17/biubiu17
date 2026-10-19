@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="600" height="450">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" width="960" height="400">
   <title>Group photo placeholder</title>
   <defs>
     <linearGradient id="bg" x2="1" y2="1">
@@ -6,11 +6,10 @@
       <stop offset="1" stop-color="#27627a"/>
     </linearGradient>
   </defs>
-  <rect width="600" height="450" fill="url(#bg)"/>
-  <circle cx="530" cy="65" r="115" fill="#ffffff" opacity=".05"/>
-  <circle cx="48" cy="394" r="125" fill="#ffffff" opacity=".05"/>
+  <rect width="960" height="400" fill="url(#bg)"/>
+  <circle cx="860" cy="30" r="190" fill="#ffffff" opacity=".05"/>
+  <circle cx="50" cy="380" r="200" fill="#ffffff" opacity=".05"/>
   <g stroke="#a8e0e1" fill="#a8e0e1"><circle cx="184" cy="202" r="26"/><circle cx="300" cy="181" r="31"/><circle cx="416" cy="202" r="26"/><path d="M132 273c4-38 28-59 52-59s48 21 52 59M239 273c4-44 30-70 61-70s57 26 61 70M364 273c4-38 28-59 52-59s48 21 52 59" fill="none" stroke-width="12" stroke-linecap="round"/></g>
-  <text x="300" y="336" text-anchor="middle" fill="#ffffff" font-size="28" font-family="Arial, sans-serif">Group photo</text>
-  <text x="300" y="373" text-anchor="middle" fill="#c7dce4" font-size="17" font-family="Arial, sans-serif">A place for our next team portrait</text>
-  <text x="300" y="411" text-anchor="middle" fill="#e2bd78" font-size="14" font-family="Arial, sans-serif">Photo coming soon</text>
+  <text x="670" y="190" text-anchor="middle" fill="#ffffff" font-size="32" font-family="Arial, sans-serif">Group photo</text>
+  <text x="670" y="238" text-anchor="middle" fill="#e2bd78" font-size="22" font-family="Arial, sans-serif">Photo coming soon</text>
 </svg>

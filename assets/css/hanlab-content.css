@@ -1,20 +1,18 @@
 /* Site content polish, shared by the HanLab pages. */
 .hanlab-team {
-  margin-top: 3.5rem;
+  margin-top: 2.5rem;
   text-align: center;
-}
-
-.post .hanlab-team-title {
-  margin-bottom: 2.5rem;
-  font-size: clamp(2rem, 4vw, 2.5rem);
-  font-weight: 500;
 }
 
 .hanlab-member-group {
   margin-top: 3rem;
 }
 
-.hanlab-member-group > h3 {
+.hanlab-member-group:first-child {
+  margin-top: 0;
+}
+
+.hanlab-member-group > h2 {
   margin-bottom: 2rem;
   font-size: 1.55rem;
   font-weight: 500;
@@ -54,7 +52,7 @@
   object-position: center 35%;
 }
 
-.hanlab-member-profile h4 {
+.hanlab-member-profile h3 {
   margin: 1rem 0 0.4rem;
   color: var(--global-theme-color);
   font-size: 1.15rem;
@@ -67,7 +65,7 @@
   text-decoration: none;
 }
 
-.hanlab-member-profile:hover h4 {
+.hanlab-member-profile:hover h3 {
   text-decoration: underline;
   text-underline-offset: 0.2em;
 }

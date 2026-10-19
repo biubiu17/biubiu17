@@ -2,15 +2,15 @@
 layout: page
 permalink: /people/
 title: People
-description: The people behind HanLab
+description: Faculty and students at HanLab
 nav: true
 nav_order: 3
 _styles: |
   .hanlab-carousel {
     position: relative;
-    max-width: 760px;
-    margin: 0 auto 2rem;
-    padding-bottom: 2rem;
+    width: 100%;
+    margin: 0 0 2.25rem;
+    padding-bottom: 1.75rem;
   }
   .hanlab-carousel-radio {
     appearance: none;
@@ -36,7 +36,7 @@ _styles: |
     display: block;
     width: 100%;
     height: auto;
-    aspect-ratio: 4 / 3;
+    aspect-ratio: 12 / 5;
     object-fit: cover;
     border-radius: .4rem;
   }
@@ -86,7 +86,7 @@ _styles: |
   <div class="hanlab-slides">
     <figure class="hanlab-slide hanlab-slide-1">
       <div class="hanlab-slide-image">
-        <img src="{{ '/assets/img/people/gallery-group.svg' | relative_url }}" alt="Placeholder for a future HanLab group photo" width="600" height="450">
+        <img src="{{ '/assets/img/people/gallery-group.svg' | relative_url }}" alt="Placeholder for a future HanLab group photo" width="960" height="400">
         <label class="hanlab-carousel-arrow hanlab-carousel-prev" for="hanlab-photo-3" title="Previous image"><span aria-hidden="true">&#10094;</span><span class="hanlab-sr-only">Previous image</span></label>
         <label class="hanlab-carousel-arrow hanlab-carousel-next" for="hanlab-photo-2" title="Next image"><span aria-hidden="true">&#10095;</span><span class="hanlab-sr-only">Next image</span></label>
       </div>
@@ -94,7 +94,7 @@ _styles: |
     </figure>
     <figure class="hanlab-slide hanlab-slide-2">
       <div class="hanlab-slide-image">
-        <img src="{{ '/assets/img/people/gallery-research.svg' | relative_url }}" alt="Placeholder for future research activity photos" width="600" height="450">
+        <img src="{{ '/assets/img/people/gallery-research.svg' | relative_url }}" alt="Placeholder for future research activity photos" width="960" height="400">
         <label class="hanlab-carousel-arrow hanlab-carousel-prev" for="hanlab-photo-1" title="Previous image"><span aria-hidden="true">&#10094;</span><span class="hanlab-sr-only">Previous image</span></label>
         <label class="hanlab-carousel-arrow hanlab-carousel-next" for="hanlab-photo-3" title="Next image"><span aria-hidden="true">&#10095;</span><span class="hanlab-sr-only">Next image</span></label>
       </div>
@@ -102,7 +102,7 @@ _styles: |
     </figure>
     <figure class="hanlab-slide hanlab-slide-3">
       <div class="hanlab-slide-image">
-        <img src="{{ '/assets/img/people/gallery-community.svg' | relative_url }}" alt="Placeholder for future lab event photos" width="600" height="450">
+        <img src="{{ '/assets/img/people/gallery-community.svg' | relative_url }}" alt="Placeholder for future lab event photos" width="960" height="400">
         <label class="hanlab-carousel-arrow hanlab-carousel-prev" for="hanlab-photo-2" title="Previous image"><span aria-hidden="true">&#10094;</span><span class="hanlab-sr-only">Previous image</span></label>
         <label class="hanlab-carousel-arrow hanlab-carousel-next" for="hanlab-photo-1" title="Next image"><span aria-hidden="true">&#10095;</span><span class="hanlab-sr-only">Next image</span></label>
       </div>
@@ -112,14 +112,13 @@ _styles: |
 </div>
 
 <div class="hanlab-team">
-  <h2 class="hanlab-team-title">Meet the Team</h2>
   <section class="hanlab-member-group" aria-labelledby="group-professor">
-    <h3 id="group-professor">Professor</h3>
+    <h2 id="group-professor">Professor</h2>
     <div class="hanlab-member-grid">
       <div class="hanlab-member hanlab-member-pi">
         <a class="hanlab-member-profile" href="{{ '/' | relative_url }}#jing-han" aria-label="Professor Jing Han — profile on Home">
           <img src="{{ '/assets/img/jing-han.jpg' | relative_url }}" alt="Professor Jing Han" width="176" height="176">
-          <h4>Jing Han</h4>
+          <h3>Jing Han</h3>
         </a>
         <p class="hanlab-member-meta">Director of HanLab</p>
         <div class="hanlab-member-links">

@@ -65,7 +65,7 @@ Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；�
 
 ## 添加团队成员
 
-People 顶部保留照片轮播，下面是居中的 **Meet the Team**。成员按 **Professor**、**PhD Students**、**Master's Students** 和 **Undergraduate Students** 分组，使用圆形头像；点击学生头像或姓名进入个人页。
+People 使用单一主标题，顶部是紧凑的横幅照片轮播，随后直接展示居中的成员分组，避免重复介绍团队。成员按 **Professor**、**PhD Students**、**Master's Students** 和 **Undergraduate Students** 分组，使用圆形头像；点击学生头像或姓名进入个人页。照片横幅比例为 12:5，建议替换时使用横向照片并将主体放在中央。
 韩静教授单独居中，头像和姓名进入首页简介；下方的图标链接到公开邮箱与 Google Scholar。
 顶部轮播一次显示一张图片；点击左右箭头或下方圆点切换。当前使用 `assets/img/people/gallery-*.svg` 占位图。以后把照片放入 `assets/img/people/`，再修改 `_pages/profiles.md` 中对应的图片路径和说明文字即可。
 

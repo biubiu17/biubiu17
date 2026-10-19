@@ -2,7 +2,7 @@
 {% assign students = site.pages | where: 'member_group', group.id | sort: 'member_order' %}
 {% if students.size > 0 %}
     <section class="hanlab-member-group" aria-labelledby="group-{{ group.id }}">
-      <h3 id="group-{{ group.id }}">{{ group.title }}</h3>
+      <h2 id="group-{{ group.id }}">{{ group.title }}</h2>
       <div class="hanlab-member-grid">
         {% for student in students %}
           <div class="hanlab-member">
@@ -14,7 +14,7 @@
                 height="152"
                 loading="lazy"
               >
-              <h4>{{ student.title }}</h4>
+              <h3>{{ student.title }}</h3>
             </a>
             <p class="hanlab-member-meta">{{ group.position }}{% if student.cohort %} · {{ student.cohort }}{% endif %}</p>
             {% if student.email or student.scholar or student.github %}
