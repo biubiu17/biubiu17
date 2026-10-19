@@ -7,7 +7,7 @@ nav: false
 member_group: doctoral
 member_order: 2
 cohort: 2026
-portrait: /assets/img/people/default-avatar.svg
+portrait: /assets/img/people/default-avatar-circle.svg
 portrait_alt: Default avatar — photo coming soon
 ---
 
@@ -20,7 +20,7 @@ portrait_alt: Default avatar — photo coming soon
     <img
       src="{{ page.portrait | relative_url }}"
       alt="{{ page.portrait_alt | escape }}"
-      class="img-fluid rounded"
+      class="img-fluid rounded-circle"
       width="400"
       height="400"
       style="width: 100%; max-width: 260px; height: auto; aspect-ratio: 1; object-fit: cover;"

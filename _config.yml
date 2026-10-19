@@ -233,7 +233,7 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/people_doctoral_students.md
+  - _pages/people_students.md
   - purgecss.config.js
   - README.md
   - readme_preview/

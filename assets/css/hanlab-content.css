@@ -1,4 +1,122 @@
 /* Site content polish, shared by the HanLab pages. */
+.hanlab-team {
+  margin-top: 3.5rem;
+  text-align: center;
+}
+
+.post .hanlab-team-title {
+  margin-bottom: 2.5rem;
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  font-weight: 500;
+}
+
+.hanlab-member-group {
+  margin-top: 3rem;
+}
+
+.hanlab-member-group > h3 {
+  margin-bottom: 2rem;
+  font-size: 1.55rem;
+  font-weight: 500;
+}
+
+.hanlab-member-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2.5rem 2rem;
+}
+
+.hanlab-member {
+  flex: 0 1 calc((100% - 4rem) / 3);
+  max-width: 250px;
+  min-width: 0;
+}
+
+.hanlab-member-profile {
+  display: inline-block;
+  border-radius: 0.5rem;
+}
+
+.hanlab-member-profile img {
+  display: block;
+  width: 152px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+  margin: 0 auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.hanlab-member-pi .hanlab-member-profile img {
+  width: 176px;
+  object-position: center 35%;
+}
+
+.hanlab-member-profile h4 {
+  margin: 1rem 0 0.4rem;
+  color: var(--global-theme-color);
+  font-size: 1.15rem;
+  font-weight: 500;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+
+.hanlab-member-profile:hover {
+  text-decoration: none;
+}
+
+.hanlab-member-profile:hover h4 {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.hanlab-member-profile:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 6px;
+}
+
+.hanlab-member-meta {
+  margin: 0;
+  color: var(--hanlab-muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.hanlab-member-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.45rem;
+}
+
+.hanlab-member-links a {
+  display: inline-grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 575px) {
+  .hanlab-member-grid {
+    gap: 2rem 1.2rem;
+  }
+
+  .hanlab-member {
+    flex-basis: calc((100% - 1.2rem) / 2);
+  }
+
+  .hanlab-member-profile img {
+    width: 128px;
+  }
+
+  .hanlab-member-pi {
+    flex-basis: 100%;
+  }
+}
+
 .post {
   --hanlab-muted: #56636e;
   --hanlab-divider: #dce3e7;

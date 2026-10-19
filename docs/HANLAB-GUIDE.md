@@ -34,24 +34,25 @@ bundle exec jekyll serve --host 127.0.0.1 --baseurl /al-folio
 
 各页面的标题层次、新闻列表和论文按钮样式集中在 `assets/css/hanlab-content.css`。页面正文通过一条 `link` 引用该文件。首页的 News 和 Selected Publications 在 `_pages/about.md` 中显式引用主题组件，以统一标题大小写；新增新闻或论文仍修改原来的数据文件。
 
-| 想修改的内容                   | 对应文件或目录                       |
-| ------------------------------ | ------------------------------------ |
-| 网站名称、简介、网址、基础开关 | `_config.yml`                        |
-| 首页介绍及韩静教授简介         | `_pages/about.md`                    |
-| 研究方向                       | `_pages/research.md`                 |
-| 论文页面与筛选区域             | `_pages/publications.md`             |
-| 论文数据                       | `_bibliography/papers.bib`           |
-| 团队负责人、图片展示区         | `_pages/profiles.md`                 |
-| 博士生卡片排列方式             | `_pages/people_doctoral_students.md` |
-| 学生照片、身份和个人页         | `_pages/student_*.md`                |
-| 新闻页面                       | `_pages/news.md`                     |
-| 每条新闻                       | `_news/` 中的 Markdown 文件          |
-| 项目详情                       | `_projects/` 中的 Markdown 文件      |
-| 联系方式和招生联系说明         | `_pages/contact.md`                  |
-| 页脚 / 首页社交链接            | `_data/socials.yml`                  |
-| 图片                           | `assets/img/`                        |
-| 论文缩略图                     | `assets/img/publication_preview/`    |
-| 可公开下载的论文 PDF           | `assets/pdf/`                        |
+| 想修改的内容                   | 对应文件或目录                    |
+| ------------------------------ | --------------------------------- |
+| 网站名称、简介、网址、基础开关 | `_config.yml`                     |
+| 首页介绍及韩静教授简介         | `_pages/about.md`                 |
+| 研究方向                       | `_pages/research.md`              |
+| 论文页面与筛选区域             | `_pages/publications.md`          |
+| 论文数据                       | `_bibliography/papers.bib`        |
+| 团队负责人、图片展示区         | `_pages/profiles.md`              |
+| 学生头像和姓名的展示方式       | `_pages/people_students.md`       |
+| 学生分组、分组名称与身份       | `_data/member_groups.yml`         |
+| 学生照片、身份和个人页         | `_pages/student_*.md`             |
+| 新闻页面                       | `_pages/news.md`                  |
+| 每条新闻                       | `_news/` 中的 Markdown 文件       |
+| 项目详情                       | `_projects/` 中的 Markdown 文件   |
+| 联系方式和招生联系说明         | `_pages/contact.md`               |
+| 页脚 / 首页社交链接            | `_data/socials.yml`               |
+| 图片                           | `assets/img/`                     |
+| 论文缩略图                     | `assets/img/publication_preview/` |
+| 可公开下载的论文 PDF           | `assets/pdf/`                     |
 
 Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；正文可以直接写英文段落、标题、列表及链接。
 新增页面通常使用 `nav: true` 和 `nav_order` 控制菜单显示与顺序。站内链接应使用 `relative_url`，例如：
@@ -64,17 +65,22 @@ Markdown 文件顶部两行 `---` 之间是配置，请保留缩进和冒号；�
 
 ## 添加团队成员
 
-People 页面按 **Principal Investigator** 和 **Doctoral Students** 分组。博士生以可点击的头像卡片展示，姓名、照片和“View profile”均进入站内个人页。
-韩静教授的详细介绍放在首页；People 仅展示姓名、职务和通往首页介绍的链接。
+People 顶部保留照片轮播，下面是居中的 **Meet the Team**。成员按 **Professor**、**PhD Students**、**Master's Students** 和 **Undergraduate Students** 分组，使用圆形头像；点击学生头像或姓名进入个人页。
+韩静教授单独居中，头像和姓名进入首页简介；下方的图标链接到公开邮箱与 Google Scholar。
 顶部轮播一次显示一张图片；点击左右箭头或下方圆点切换。当前使用 `assets/img/people/gallery-*.svg` 占位图。以后把照片放入 `assets/img/people/`，再修改 `_pages/profiles.md` 中对应的图片路径和说明文字即可。
 
-三位现有学生的个人页分别为：
+现有八位学生的个人页分别为：
 
-| 学生   | 编辑文件                        | 站内路径               |
-| ------ | ------------------------------- | ---------------------- |
-| 冯浩玮 | `_pages/student_feng_haowei.md` | `/people/feng-haowei/` |
-| 凌鹏   | `_pages/student_ling_peng.md`   | `/people/ling-peng/`   |
-| 胡博涵 | `_pages/student_hu_bohan.md`    | `/people/hu-bohan/`    |
+| 学生   | 编辑文件                         | 站内路径                |
+| ------ | -------------------------------- | ----------------------- |
+| 冯浩玮 | `_pages/student_feng_haowei.md`  | `/people/feng-haowei/`  |
+| 凌鹏   | `_pages/student_ling_peng.md`    | `/people/ling-peng/`    |
+| 胡博涵 | `_pages/student_hu_bohan.md`     | `/people/hu-bohan/`     |
+| 陈大捷 | `_pages/student_chen_dajie.md`   | `/people/chen-dajie/`   |
+| 林蕊   | `_pages/student_lin_rui.md`      | `/people/lin-rui/`      |
+| 胡灿   | `_pages/student_hu_can.md`       | `/people/hu-can/`       |
+| 凌心乔 | `_pages/student_ling_xinqiao.md` | `/people/ling-xinqiao/` |
+| 方安吉 | `_pages/student_fang_anji.md`    | `/people/fang-anji/`    |
 
 ### 更换学生照片
 
@@ -85,15 +91,17 @@ portrait: /assets/img/people/hu-bohan.jpg
 portrait_alt: 胡博涵
 ```
 
-卡片和个人页共同读取这两项，只需修改一次。建议使用居中、接近正方形的照片；照片区域会裁切为正方形。当前没有收到学生照片，使用明确标示“Photo coming soon”的默认头像。
+People 和个人页共同读取这两项，只需修改一次。建议使用居中、接近正方形的照片；照片会裁切为圆形。当前没有收到学生照片，使用通用的默认头像，图片替代文字标示照片待补充。
 
 ### 补充个人信息或新增学生
 
 直接编辑个人页第二个 `---` 后面的正文，可以继续添加 `## Research interests`、`## Education`、`## Publications` 和个人联系链接。只填写已确认、愿意公开的信息。
 
-新增学生时，复制一份 `_pages/student_*.md`，修改 `title`、唯一的 `permalink`、`cohort`、`member_order` 和照片。保留 `member_group: doctoral`，People 页面就会自动收录，按 `member_order` 排序。`nav: false` 让个人页不占用顶部导航。
+新增学生时，复制同身份的一份 `_pages/student_*.md`，修改 `title`、唯一的 `permalink`、`member_order`、照片和正文。`member_group` 分别填 `doctoral`、`masters` 或 `undergraduate`，People 页面就会自动收录，按 `member_order` 排序。`nav: false` 让个人页不占用顶部导航。
 
-学生个人页需要生成网页，因此不要加入 `_config.yml` 的 `exclude`。`people_doctoral_students.md` 是 People 页面读取的内容片段，继续保留在排除列表中。
+八位现有学生均由维护者确认为 2026 级，个人页顶部统一设置 `cohort: 2026`。新增成员时按实际确认的年份填写。联系方式可选填 `email`、`scholar` 和 `github`，填写后 People 会显示对应图标；没有资料时不显示空图标。
+
+学生个人页需要生成网页，因此不要加入 `_config.yml` 的 `exclude`。`people_students.md` 是 People 页面读取的内容片段，继续保留在排除列表中。
 
 ## 用 DOI 添加论文
 

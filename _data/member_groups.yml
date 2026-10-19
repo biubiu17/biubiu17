@@ -1,0 +1,9 @@
+- id: doctoral
+  title: PhD Students
+  position: PhD Student
+- id: masters
+  title: Master's Students
+  position: Master's Student
+- id: undergraduate
+  title: Undergraduate Students
+  position: Undergraduate Student

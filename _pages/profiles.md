@@ -72,23 +72,8 @@ _styles: |
     clip: rect(0, 0, 0, 0);
     white-space: nowrap;
   }
-  .hanlab-pi {
-    display: flex;
-    align-items: center;
-    gap: 1.5rem;
-    margin: 1rem 0 2.5rem;
-  }
-  .hanlab-pi img {
-    width: 155px;
-    height: 190px;
-    object-fit: cover;
-    border-radius: .4rem;
-    flex-shrink: 0;
-  }
   @media (max-width: 575px) {
     .hanlab-carousel-arrow { width: 2.25rem; height: 2.25rem; }
-    .hanlab-pi { align-items: flex-start; gap: 1rem; }
-    .hanlab-pi img { width: 105px; height: 132px; }
   }
 ---
 
@@ -126,16 +111,23 @@ _styles: |
   </div>
 </div>
 
-## Principal Investigator
-
-<div class="hanlab-pi">
-  <img src="{{ '/assets/img/jing-han.jpg' | relative_url }}" alt="Professor Jing Han" width="155" height="190">
-  <div>
-    <h3>Professor Jing Han</h3>
-    <p>Professor, School of Computer Science, Hunan University<br>Director of HanLab</p>
-    <p><a href="{{ '/' | relative_url }}#jing-han">Read her profile on Home &rarr;</a></p>
-  </div>
+<div class="hanlab-team">
+  <h2 class="hanlab-team-title">Meet the Team</h2>
+  <section class="hanlab-member-group" aria-labelledby="group-professor">
+    <h3 id="group-professor">Professor</h3>
+    <div class="hanlab-member-grid">
+      <div class="hanlab-member hanlab-member-pi">
+        <a class="hanlab-member-profile" href="{{ '/' | relative_url }}#jing-han" aria-label="Professor Jing Han — profile on Home">
+          <img src="{{ '/assets/img/jing-han.jpg' | relative_url }}" alt="Professor Jing Han" width="176" height="176">
+          <h4>Jing Han</h4>
+        </a>
+        <p class="hanlab-member-meta">Director of HanLab</p>
+        <div class="hanlab-member-links">
+          <a href="mailto:jhan@hnu.edu.cn" aria-label="Email Jing Han" title="Email"><i class="fa-solid fa-envelope" aria-hidden="true"></i></a>
+          <a href="https://scholar.google.com/citations?user=90uh0GcAAAAJ&amp;hl=en" aria-label="Google Scholar: Jing Han" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  {% include_relative people_students.md %}
 </div>
-
-{% capture doctoral_students %}{% include_relative people_doctoral_students.md %}{% endcapture %}
-{{ doctoral_students | markdownify }}
